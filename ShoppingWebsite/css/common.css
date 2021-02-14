@@ -176,7 +176,7 @@
 }
 
 .dropdown .dd {
-    display: none;
+    /* display: none; */
     height: 465px;
     background-color: #c81623;
     margin-top: 2px;
@@ -187,9 +187,11 @@
     line-height: 31px;
     margin-left: 1px;
     padding: 0 10px;
+    transition: all 0.4s;
 }
 
 .menu_item:hover {
+    padding-left: 20px;
     background-color: #fff;
 }
 

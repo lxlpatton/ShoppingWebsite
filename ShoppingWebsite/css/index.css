@@ -277,6 +277,21 @@
     border-bottom: 1px solid #ccc;
 }
 
+.box_bd li {
+    overflow: hidden;
+}
+
+.box_bd img {
+    transition: all 0.4s;
+}
+
+.box_bd img:hover {
+    margin-left: 8px;
+}
+
+
+/* 电梯导航 */
+
 .fixedtool {
     position: fixed;
     top: 155px;
